@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no, viewport-fit=cover">
+    <title>Document</title>
+  </head>
+  <body>
+    <style>.pos-a {
+  position: absolute;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.m-hoz-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-32 {
+  left: 32px;
+}
+
+.left-5 {
+  left: 5px;
+}
+
+.top-30 {
+  top: 30px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+body {
+  background-color: #00a0e1;
+}
+
+.doraemon {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateX(50%)translateY(-50%);
+}
+
+.demo {
+  min-height: 60vh;
+  height: 60vh;
+  overflow: auto;
+}
+
+.container {
+  height: 40vh;
+  width: 100%;
+  background-image: url("A.285c4af9.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: scroll;
+  position: relative;
+}
+
+.btn {
+  height: 120px;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  position: fixed;
+  right: 10px;
+}
+
+@media (min-width: 500px) {
+  .btn {
+    right: 50px;
+  }
+}
+
+</style>
+    <style id="style"></style>
+    <div class="btn">
+      <button id="pause">PAUSE</button>
+      <button id="play">PLAY</button>
+      <button id="oneX">1X</button>
+      <button id="fourX">4X</button>
+      <button id="eightX">8X</button>
+    </div>
+    <div id="demo"></div>
+    <div class="container">
+      <div class="doraemon">
+        <div class="circle border-black-1 head">
+          <div class="eyes">
+            <div class="circle pos-a bacc-white eye eye-left">
+              <div class="circle pos-r top-30 eye-pupil eye-pupil-left"></div>
+            </div>
+            <div class="circle pos-a bacc-white eye eye-right">
+              <div class="circle pos-r top-30 eye-pupil eye-pupil-right"></div>
+            </div>
+          </div>
+          <div class="border-black-2 bacc-white face">
+            <div class="circle pos-r border-black-2 bacc-brown-red nose">
+              <div class="circle pos-a bacc-white nose-light"></div>
+            </div>
+            <div class="m-hoz-auto pos-r bacc-white bread-field">
+              <div class="m-hoz-auto bacc-black nasal-groove"></div>
+              <div class="pos-a bacc-black bread bread-left bread-left-1"></div>
+              <div class="pos-a bacc-black bread bread-left bread-left-2"></div>
+              <div class="pos-a bacc-black bread bread-left bread-left-3"></div>
+              <div class="pos-a bacc-black bread bread-right bread-right-1"></div>
+              <div class="pos-a bacc-black bread bread-right bread-right-2"></div>
+              <div class="pos-a bacc-black bread bread-right bread-right-3"></div>
+            </div>
+
+            <div class="pos-r m-hoz-auto lips">
+              <div class="pos-a bacc-white border-black-2 lips-left"></div>
+              <div class="lips-center-left pull-left">
+                <div class="lips-center-left-inside circle border-black-2 bacc-white"></div>
+              </div>
+              <div class="lips-center pull-left bacc-white">
+                <div class="lips-center-inside pos-r m-hoz-auto border-black-2 bacc-mouse-red"></div>
+              </div>
+              <div class="lips-center-right pull-left">
+                <div class="lips-center-right-inside border-black-2 bacc-white"></div>
+              </div>
+              <div class="pos-a border-black-2 bacc-white lips-right"></div>
+            </div>
+
+            <div class="mouth border-black-2 m-hoz-auto bacc-mouse-red">
+              <div class="tongue pos-r m-hoz-auto bacc-mouse-red">
+                <div class="tongue-left pos-r pull-left">
+                  <div class="tongue-left-inside border-black-2 bacc-mouse-orange"></div>
+                </div>
+                <div class="tongue-right pos-r pull-left">
+                  <div class="tongue-right-inside border-black-2 bacc-mouse-orange"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/doraemon.de158e3a.js"></script>
+  <script src="/doraemon.76bfa9e7.js"></script></body>
+</html>
