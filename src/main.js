@@ -281,6 +281,7 @@ const paint = () => {
     tempString = tempString + "<br>";
   } else if (string[n] === " ") {
     tempString = tempString + "&nbsp";
+  } else if (!string[n]) {
   } else {
     tempString = tempString + string[n];
   }
